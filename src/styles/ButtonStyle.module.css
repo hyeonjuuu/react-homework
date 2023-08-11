@@ -1,0 +1,45 @@
+/* .default {
+  background-color: #267ef8;
+  padding: 8px 16px;
+  width: 187px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+} */
+
+.success {
+  background-color: #00ae46;
+  padding: 8px 16px;
+  width: 187px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+}
+
+.error {
+  background-color: #cd2e00;
+  padding: 8px 16px;
+  width: 187px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+}
+
+.icon {
+  margin: 0 0 0 6px;
+}
