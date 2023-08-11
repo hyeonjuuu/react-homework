@@ -1,5 +1,5 @@
 import styles from "@/styles/ButtonStyle.module.css";
-import close from "./../assets/close.svg";
+import close from "@/assets/close.svg";
 
 const ToastButton = ({ state, isSuccess, handleChange }) => {
   console.log(isSuccess);
