@@ -2,8 +2,7 @@ import ToastButton from "@/components/ToastButton";
 import { useState } from "react";
 
 function App() {
-  let a = {
-    default: "default message",
+  let state = {
     success: "success message",
     error: "error message",
   };
@@ -15,8 +14,7 @@ function App() {
   return (
     <div className="App">
       <ToastButton
-        state="default"
-        a={a}
+        state={state}
         isSuccess={isSuccess}
         handleChange={handleChange}
       />

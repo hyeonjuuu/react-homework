@@ -1,9 +1,9 @@
 import styles from "@/styles/ButtonStyle.module.css";
 import close from "./../assets/close.svg";
 
-const ToastButton = ({ a, isSuccess, handleChange }) => {
+const ToastButton = ({ state, isSuccess, handleChange }) => {
   console.log(isSuccess);
-  let message = isSuccess ? a.success : a.error;
+  let message = isSuccess ? state.success : state.error;
   let color = isSuccess ? styles.success : styles.error;
 
   return (
