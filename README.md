@@ -4,7 +4,7 @@
 
 ![Alt text](image.png)
 
-클릭하면 Success와 Error 버튼이 토글되는 Component를 만들었습니다.
+클릭하면 Success와 Error 버튼이 토글되는 Component를 구현했습니다.
 
 ### ToastButton.jsx
 
